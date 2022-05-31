@@ -1,0 +1,49 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+.quote-box{
+  background-color: white;
+  padding: 20px;
+  list-style: none;
+  border-radius: 20px;
+  color: black;
+  max-width: 600px;
+}
+
+.box-btn{
+  font-size: 60px;
+  display: flex;
+  justify-content: end;
+
+}
+
+.bxs-quote-alt-left{
+  font-size: 100px;
+  display: flex;
+
+}
+
+.phrase p{
+  margin: 10px 20px 0px 20px;
+}
+
+.phrase p:first-of-type{
+  font-size: 30px;
+}
+
+.phrase p:last-of-type{
+  text-align: right;
+  margin-right: 48px;
+  margin-bottom: 15px;
+}
+
+.bx-chevrons-right{
+  cursor: pointer;
+}
